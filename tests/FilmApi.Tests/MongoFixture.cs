@@ -15,9 +15,6 @@ public sealed class MongoFixture : IAsyncLifetime, IDisposable
         .WithImage("mongo:7")
         .Build();
 
-
-
-
     public Task InitializeAsync() => _container.StartAsync();
 
     public Task DisposeAsync() => _container.DisposeAsync().AsTask();
