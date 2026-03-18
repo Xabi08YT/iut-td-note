@@ -75,3 +75,5 @@ task spike-500k   # spike test, 500 000 films
 ```
 
 Sans Task : regarder dans le fichier Taskfile.yml pour exécuter les commandes manuellement.
+
+# Les résultats sont ceux de l'ancien répo, celui ci ne fonctionnant pas

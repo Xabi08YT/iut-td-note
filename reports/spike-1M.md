@@ -8,12 +8,12 @@ _Collez ici une capture d’écran du dashboard Grafana (http://localhost:3000/d
 
 <!-- Remplacer par votre capture, ex. : ![Capture spike-500k](captures/spike-500k.png) -->
 
-![Capture spike-500k](captures/spike-500k.png)
+![Capture spike-1M](captures/Spike%201M.png)
 
 ## 2. Observations
 
 _Décrivez ce que vous constatez lors de l’exécution du test (pic de charge, latence, erreurs, dégradation, reprise, etc.)._
 
-- 
-- 
-- 
+- Latence immonde
+- Trop d'erreurs (+ de 100)
+- Tout est trop irrégulier.
