@@ -77,3 +77,10 @@ task spike-500k   # spike test, 500 000 films
 Sans Task : regarder dans le fichier Taskfile.yml pour exécuter les commandes manuellement.
 
 # Les résultats sont ceux de l'ancien répo, celui ci ne fonctionnant pas
+
+# Exécuter les tests avec podman
+
+export DOCKER_HOST=unix:///run/user/1000/podman/podman.sock
+export TESTCONTAINERS_RYUK_DISABLED=true
+
+Et testcontainer exécutera avec podman.
