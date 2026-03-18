@@ -11,8 +11,12 @@ namespace FilmApi.Tests;
 /// </summary>
 public sealed class MongoFixture : IAsyncLifetime, IDisposable
 {
-    private readonly MongoDbContainer _container = new MongoDbBuilder("mongo:7")
+    private readonly MongoDbContainer _container = new MongoDbBuilder()
+        .WithImage("mongo:7")
         .Build();
+
+
+
 
     public Task InitializeAsync() => _container.StartAsync();
 
